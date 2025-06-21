@@ -1,6 +1,4 @@
 # Kinesis Advantage 360 Pro ZMK Config
-![image](https://github.com/user-attachments/assets/a4410cfa-1425-4024-91ef-4bc496b6a528)
-
 
 ## Modifying the keymap
 
