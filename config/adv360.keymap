@@ -59,8 +59,8 @@
         umlaute {
             bindings = <
 &trans  &trans         &trans  &trans         &kp LA(LC(N5))  &trans  &trans                                      &trans  &trans  &trans  &trans         &trans  &trans         &trans
-&trans  &trans         &trans  &trans         &trans          &trans  &trans                                      &trans  &trans  &trans  &kp LA(RC(P))  &trans  &trans         &trans
-&trans  &kp LA(RC(Q))  &trans  &kp LC(LA(S))  &trans          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans         &trans  &kp RC(LA(Y))  &trans
+&trans  &trans         &trans  &trans         &trans          &trans  &trans                                      &trans  &trans  &trans  &kp LA(RC(Y))  &trans  &trans         &trans
+&trans  &kp LA(RC(Q))  &trans  &kp LC(LA(S))  &trans          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans         &trans  &kp RC(LA(P))  &trans
 &trans  &trans         &trans  &trans         &trans          &trans                  &trans      &trans                  &trans  &trans  &trans         &trans  &trans         &trans
 &trans  &trans         &trans  &trans         &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans         &trans  &trans         &trans
             >;
