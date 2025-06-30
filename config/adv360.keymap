@@ -37,11 +37,11 @@
 
         utils {
             bindings = <
-&trans  &trans  &trans     &trans  &trans            &trans             &trans                                                     &trans      &trans  &trans                &trans                 &trans          &trans           &trans
-&trans  &trans  &kp LC(F)  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp C_SNAPSHOT                                             &kp K_CALC  &trans  &kp PRINTSCREEN       &kp LC(A)              &kp LC(X)       &kp SEMICOLON    &trans
-&trans  &trans  &kp TAB    &trans  &kp EQUAL         &trans             &kp C_AL_TASK_MANAGER  &trans  &trans      &trans  &trans  &kp K_WWW   &trans  &kp LS(INS)           &kp LC(C)              &kp LC(V)       &kp COLON        &trans
-&trans  &trans  &trans     &trans  &kp MINUS         &trans                                            &trans      &trans                      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &trans  &trans     &trans  &trans                               &trans                 &trans  &trans      &trans  &trans  &trans              &trans                &trans                 &trans          &trans           &trans
+&trans  &trans       &trans       &trans  &trans           &trans        &kp LS(INS)                                                &kp PRINTSCREEN  &trans  &kp LC(F)             &trans                 &trans          &trans           &trans
+&trans  &kp SQT      &kp LS(SQT)  &trans  &kp EXCLAMATION  &kp QUESTION  &kp C_SNAPSHOT                                             &kp K_CALC       &trans  &kp LC(C)             &kp LC(V)              &kp LC(X)       &kp LC(A)        &trans
+&trans  &kp LS(INS)  &kp TAB      &trans  &kp EQUAL        &kp TILDE     &kp C_AL_TASK_MANAGER  &trans  &trans      &trans  &trans  &kp K_WWW        &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans          &kp COLON        &trans
+&trans  &trans       &trans       &trans  &kp MINUS        &trans                                       &trans      &trans                           &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans  &trans       &trans       &trans  &trans                         &trans                 &trans  &trans      &trans  &trans  &trans                   &trans                &trans                 &trans          &trans           &trans
             >;
         };
 
@@ -68,11 +68,11 @@
 
         config {
             bindings = <
-&trans  &trans             &trans           &trans      &trans         &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans           &trans      &trans         &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp LA(LC(S))  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans           &trans      &trans         &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans           &trans      &trans                 &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE      &trans           &trans         &trans                                      &trans  &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans             &trans           &kp UP_ARROW    &trans           &kp LC(LA(S))  &trans                                      &trans  &trans  &trans  &kp K_SCROLL_UP    &trans  &trans  &trans
+&trans  &trans             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp K_SCROLL_DOWN  &trans  &trans  &trans
+&trans  &trans             &trans           &trans          &trans           &trans                         &trans      &trans                  &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans             &trans           &trans          &trans                          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans             &trans  &trans  &trans
             >;
         };
 
